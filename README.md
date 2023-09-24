@@ -1,2 +1,1 @@
 ## Nuxt demo ecommerce store
-
