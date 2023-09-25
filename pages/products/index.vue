@@ -14,6 +14,15 @@ definePageMeta({
 });
 
 const { data: products } = await useFetch("https://fakestoreapi.com/products");
+useHead({
+  title: "Demo Store | Products",
+  meta: [
+    {
+      name: "description",
+      content: "This is the products page",
+    },
+  ],
+});
 </script>
 
 <style lang="scss" scoped></style>
